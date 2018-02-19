@@ -7,4 +7,4 @@ On February 15, 2018 I was selected to receive a full [Google Developer Scholars
 This repository is where I store all the projects, exercises and quizzes done during the scholarship.
 
 ## License 
-The contents of this repoository are covered under the [MIT License](./LICENSE?raw=true)
+The contents of this repository are covered under the [MIT License](./LICENSE?raw=true)
