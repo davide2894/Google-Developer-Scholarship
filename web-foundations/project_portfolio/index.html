@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%7cPatua+One">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="logo-container">
+                    <img class="logo" src="assets/udacity.svg" alt="Udacity logo">
+                </li>
+                <li class="title-container">
+                    <h1 class="title">Jane Doette</h1>
+                    <p class="subtitle">Front-End Ninja</p>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="hero-img">
+            <picture>
+                <source media="(max-width: 399px)" srcset="assets/laptop-small.jpg">
+                <source media="(min-width: 400px)" srcset="assets/laptop-medium.jpg">
+                <source media="(min-width: 700px)" srcset="assets/laptop-big.jpg">
+                <img class="hero-img" src="assets/laptop-big.jpg" alt="A laptop on a desk">
+            </picture>
+        </div>
+
+        <section class="work-section">
+            <h2 class="work-heading ">Featured Work</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <div class="project-img-container">
+                        <picture>
+                            <source media="(max-width: 399px)" srcset="assets/appstore-small.jpg">
+                            <source media="(min-width: 400px)" srcset="assets/appstore-sm.jpg">
+                            <img class="project-img" src="assets/appstore.jpg" alt="ios app store picture">
+                        </picture>
+                    </div>
+                    <h3 class="project-name">Appify</h3>
+                    <p class="project-link">https://github.com/udacity/Appify</p>
+                </div>
+                <div class="project">
+                    <div class="project-img-container">
+                        <picture>
+                            <source media="(min-width: 400px)" srcset="assets/sunflower-sm.jpg">
+                            <source media="(max-width: 399px)" srcset="assets/sunflower-small.jpg">
+                            <img class="project-img" src="assets/sunflower.jpg" alt="sunflower on a sunny day">
+                        </picture>
+                    </div>
+                    <h3 class="project-name">Sunflower</h3>
+                    <p class="project-link">https://github.com/udacity/Sunflower</p>
+                </div>
+                <div class="project">
+                    <div class="project-img-container">
+                        <picture>
+                            <source media="(min-width: 400px)" srcset="assets/bokeh-sm.jpg">
+                            <source media="(max-width: 399px)" srcset="assets/bokeh-small.jpg">
+                            <img class="project-img" src="assets/bokeh.jpg" alt="unfocused image showing lights on a summer evening">
+                        </picture>
+                    </div>
+                    <h3 class="project-name">Bokeh</h3>
+                    <p class="project-link">https://github.com/udacity/Bokeh</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
